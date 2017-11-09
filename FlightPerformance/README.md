@@ -1,6 +1,14 @@
-# A4 - On-Time Performance Data
+# FlightPerformance
 
-http://janvitek.org/pdpmr/f17/task-a4-delay.html
+We will explore the world of airline on-time performance data analysis. Your task will be to implement a pipeline that runs a set of pseudo distributed map reduce tasks to plot the mean delay of the five most active airlines and for the five most active airports in the country. Specifically, your code should take a set of data files as input and produce visualizations of delays. You are free to choose how to visualize delays, how many graphs you want to produce, etc. You will be asked to defend your choice.
+
+## Expected elements of a solution:
+- A Makefile that builds and runs the pipeline (including graph generation);
+- One or more map reduce tasks that read and clean the data, any corrupt row can be deleted, and output data that can be used to generate a graph
+- A R Markdown file that includes code to generate graphs from the output of the MR task and explanation of the results.
+
+## Fine print
+Data for one month is in `input` folder 
 
 ## Code Structure
 
